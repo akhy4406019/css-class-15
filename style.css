@@ -1,0 +1,19 @@
+.container{
+    height: 300px;
+    background: rgb(112, 95, 50);
+    width: 500px;
+    border: 2px solid rgb(46, 1, 112);
+    padding: 25px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: linear-gradient(rgb(87, 1, 144),rgba(248, 54, 0,1));
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
